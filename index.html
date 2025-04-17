@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- contenu actualisé depuis le canvas, mis à jour avec style exotique -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Location Immo DZ</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; }
+    header { background-color: #2e3b4e; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #1c2533; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 30px; }
+    .listing { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .card img { width: 100%; height: 200px; object-fit: cover; }
+    .card-body { padding: 15px; }
+    .cta { text-align: center; margin-top: 40px; }
+    .cta a { background: #2e3b4e; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 18px; }
+    footer { background: #2e3b4e; color: white; text-align: center; padding: 15px; margin-top: 50px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Location Immo DZ</h1>
+    <p>Locations saisonnières d'appartements & villas en Algérie</p>
+  </header>
+  <nav>
+    <a href="#logements">Nos logements</a>
+    <a href="#contact">Contact</a>
+    <a href="https://wa.me/213558778588">Réserver via WhatsApp</a>
+  </nav>
+  <section id="logements">
+    <h2>Nos logements disponibles</h2>
+    <div class="listing">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200" alt="Duplex Saket">
+        <div class="card-body">
+          <h3>Duplex à Saket</h3>
+          <p>Magnifique endroit sécurisé, toutes commodités, à 10 minutes à pied de la plage, commerces à proximité (100 m).</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200" alt="Villa Tighremt">
+        <div class="card-body">
+          <h3>Villa à Tighremt</h3>
+          <p>4 chambres, 2 salles de bain, terrasse, piscine. Villa "les pieds dans l’eau" dans un endroit chaleureux.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200" alt="Villa Tazeboujt">
+        <div class="card-body">
+          <h3>Villa à Tazeboujt</h3>
+          <p>3 chambres, piscine, très calme, toutes commodités. Prix : 60.000 DA / nuit</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x200" alt="F2 Saket">
+        <div class="card-body">
+          <h3>Appartement F2 à Saket</h3>
+          <p>Très calme, toutes commodités. Prix : 6.000 DA / nuit</p>
+        </div>
+      </div>
+    </div>
+    <div class="cta">
+      <a href="https://wa.me/213558778588">Demander une réservation</a>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p style="text-align:center;">Pour toute demande de réservation ou information, contacte-nous sur WhatsApp : <br>
+      <a href="https://wa.me/213558778588">+213 558 77 85 88</a><br>
+      <a href="https://wa.me/213549343185">+213 549 34 31 85</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Location Immo DZ. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
